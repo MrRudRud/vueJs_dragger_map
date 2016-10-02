@@ -4,10 +4,11 @@
   "author": "rudi.setiawan.0707@gmail.com",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --host 0.0.0.0",
+    "dev": "webpack-dev-server --inline --host 192.168.228.1",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "jquery": "^3.1.1",
     "vue": "^2.0.0-rc.8"
   },
   "devDependencies": {

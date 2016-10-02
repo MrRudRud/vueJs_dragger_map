@@ -1,22 +1,28 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
+
+    <Dragger></Dragger>
+
   </div>
 </template>
 
 <script>
+
+import Dragger from './components/Dragger.vue';
+
 export default {
-  data () {
-    return {
-      msg: 'Hello Vue!'
-    }
-  }
+
+  components: { Dragger },
+
 }
 </script>
 
 <style>
-body {
-  font-family: Helvetica, sans-serif;
+html, body {
+  overflow: hidden;
+  background: #a6bac3;
 }
+/*body {
+  font-family: Helvetica, sans-serif;
+}*/
 </style>
