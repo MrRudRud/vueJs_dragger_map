@@ -11,8 +11,6 @@
   import $ from 'jquery';
   import pep from 'jquery.pep';
 
-  // console.log($);
-
   export default{
     created: onCreate
   }
